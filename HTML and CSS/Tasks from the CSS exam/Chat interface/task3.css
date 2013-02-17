@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    margin: 30px;
+    width: 350px;
+    padding: 5px 15px;
+    border: 1px solid #3B3B3B;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(top, #EEE 0%, #AAA 100%);
+}
+h1 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #555;
+    text-align:center;
+}
+
+.messages-list{
+    list-style: none;
+}
+
+.me-item{
+    float:right;
+    padding: 5px 15px;
+    width: 200px;
+    color: gray;
+    border: 1px solid #3b3b3b;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(top,  #2AEDFF 0%, #BFFAFF 100%);
+}
+
+.toshko-item {
+    float: left;
+    padding: 5px 15px;
+    width: 200px;
+    color: gray;
+    border: 1px solid #3b3b3b;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(top,  #DCFFCF 0%, #73FF3F 100%);
+}
+
+input {
+    width: 275px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #EEE;
+}
+
+#wrapper div ul li {
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    background: -webkit-linear-gradient(top,  #EBEBEB 0%, #ADADAD 100%);
+}
+
+.date{
+    font-family:Consolas;
+    font-size: 12px;
+    color: gray;
+}

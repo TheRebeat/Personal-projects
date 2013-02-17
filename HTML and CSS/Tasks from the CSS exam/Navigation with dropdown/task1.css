@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 213px;
+    border: none;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #D29BFF, #8977FF 100%);
+}
+
+.sidebar {
+    padding: 5px 15px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+    .sidebar li {
+        width: 162px;
+        padding: 5px 10px;
+        font-size: 22px;
+        border-bottom: 1px solid #9D00FF;
+        display: block;
+    }
+
+        .sidebar li:hover {
+            border: 1px solid #9D00FF;
+            border-radius: 5px;
+        }
+
+            .sidebar li:hover ul {
+                padding-top: 5px;
+                margin-top: -10px;
+                margin-left: 20px;
+                display: inline-block;
+                position: absolute;
+                border-radius: 10px;
+                background-color: #B5AAFF;
+            }
+
+                .sidebar li:hover ul li {
+                    font-size: 18px;
+                    width: 234px;
+                    padding: 5px 0;
+                    margin: 0;
+                    border: none;
+                }
+
+                .sidebar li:hover ul li a{
+                    border-top: 1px solid #9D00FF;
+                    padding-top: 5px;
+                    padding-left: 15px;
+                    padding-right: 25px;
+                    padding-bottom: 5px;
+                }
+
+                .sidebar li:hover ul li:first-of-type a{
+                   border-top: none;
+                }
+
+                    .sidebar li:hover ul li a:hover {
+                        border-radius: 5px;
+                        border: 1px solid #9D00FF;
+                    }
+
+        .sidebar li:last-of-type {
+            border-bottom: none;
+        }
+
+        .sidebar li a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .sidebar li ul {
+            display: none;
+        }
